@@ -1,0 +1,28 @@
+nopermission: '&cYou do not have enough permissions for this action!'
+gallow:
+  help: |-
+    &eWesternGallows Configuration:
+    &e/gallow create <name> &8- &7Creates a gallow with a specific name
+    &e/gallow setpoint <name> &8- &7Sets the point of the criminal for a specific gallow
+    &e/gallow setlead <name> &8- &7Sets the position of the lead for a specific gallow
+    &e/gallow setlever <name> &8 &7Sets the position of the lever for a specific gallow
+  exist: '&cThis gallow already exists!'
+  notexist: '&cThis gallow does not exist!'
+  nofence: '&cThe block you are looking at is no fence!'
+  nolever: '&cThe block you are looking at is no lever!'
+  create: '&eYou have successfully created a gallow.'
+  setcriminal: '&eYou have succesfully set the criminal position of a gallow.'
+  setlead: '&eYou have succesfully set the lead of a gallow.'
+  setlever: '&eYou have successfully set the lever of a gallow.'
+  notaplayer: '&cYou need to be ingame to use this command!'
+hang:
+  help: |-
+    &eWesternGallows Hang:
+    &e/hang <player> <gallow> &8- &7Hangs a player at a specific gallow
+  gallowinuse: '&cThis gallow is already in use!'
+  gallownotinuse: '&cThis gallow is not in use!'
+  gallowincomplete: '&cThis gallow is incomplete!'
+  playernotfound: '&cThis player does not exist!'
+  playeralreadyhung: '&cThis player is already getting hung!'
+  nothangable: '&cThis player is not hangable!'
+  hangbroadcast: '&e%player% will now be hung at &7%gallow% &efor their crimes!'

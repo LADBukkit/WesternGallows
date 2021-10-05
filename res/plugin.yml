@@ -1,0 +1,11 @@
+name: WesternGallows
+author: LADBukkit
+main: de.ladbukkit.westerngallows.WesternGallows
+version: ${version}
+api-version: 1.13
+
+commands:
+  gallow:
+    description: Configures a gallow
+  hang:
+    description: hangs a player
